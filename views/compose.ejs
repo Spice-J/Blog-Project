@@ -3,22 +3,20 @@
 <h1>Compose</h1>
 
 <form action="/compose" method="post">
-  <div class="mb-3">
-    <label class="font-weight-bold">Title</label>
-    <input class="form-control" type="text" name="postTitle" />
-  </div>
 
-  <div class="mb-3">
-    <label class="font-weight-bold">Post</label>
-    <textarea
-      class="form-control"
-      rows="3"
-      type="text"
-      name="postContent"
-    ></textarea>
-  </div>
+<div class="mb-3">
+
+  <label class="font-weight-bold">Title</label>
+  <input class="form-control" type="text" name="postTitle" />
+</div>
+
+<div class="mb-3">
+  <label class="font-weight-bold">Post</label>
+  <textarea class="form-control" rows="3" type="text" name="postContent" ></textarea>
+</div>
 
   <button class="btn btn-primary" type="submit" name="button">Publish</button>
+
 </form>
 
 <%- include("partials/footer") -%>
