@@ -7,12 +7,24 @@
     padding-bottom: 15px;
     border: 0;
     border-radius: 0;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     font-size: 12px;
     letter-spacing: 5px;
+    background-color: #f3f0ec;
 }
-.navbar-nav  li a:hover {
-    color: #33a8fb !important;
+
+a {
+    text-decoration: none;
+    color: #7b7b7b;
+    margin: 0 1rem;
+}
+
+a:hover {
+    color: #43c15e !important;
+}
+
+button {
+    margin-top: 1rem;
 }
 
 .footer-padding {
